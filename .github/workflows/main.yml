@@ -1,9 +1,8 @@
 name: Builds
-on:
+on:  
   push:
-    branches:
-      - main
-  pull_request:
+    tags:
+      - '*'
 
 jobs:
   build:
