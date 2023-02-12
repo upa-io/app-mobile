@@ -1,9 +1,5 @@
+on: push:
 name: Builds
-on:
-  push:
-    branches:
-      - main
-  pull_request:
 
 # Declare default permissions as read only.
 permissions: read-all
