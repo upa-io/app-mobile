@@ -36,5 +36,5 @@ jobs:
       uses: ncipollo/release-action@v1.12.0
       with:
         allowUpdates: true
-        artifacts: "build/app/outputs/apk/debug/*.aab"
+        artifacts: "build/app/outputs/bundle/release/*.aab"
         token: ${{ secrets.TOKEN }}
